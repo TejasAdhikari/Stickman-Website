@@ -1,0 +1,256 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+h2 {
+  color: #0A1A6A;
+}
+h3 {
+  color: #57D753;
+}
+p {
+  color: #000;
+}
+
+/* Headings */
+a {
+  color: #000;
+}
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #04132f;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 0 0;
+}
+
+.navbar-brand {
+  color: #0A1A6A;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  color: #0A1A6A;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 5% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press .card .card-body .card-title {
+  text-align: left;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.features-column {
+  padding: 3% 2%;
+}
+
+.features-column .card .card-header > img {
+  width: 50px;
+}
+/* CTA Section */
+
+.card {
+  width:100%;
+  height:85%;
+  position: relative;
+  margin: 40px auto;
+}
+
+.im > img {
+  width: 100%;
+  height: 100%;
+}
+
+.im1 > img {
+  width: 100%;
+  height: 80%;
+}
+
+.btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+}
+
+.blue {
+  background-color: #224895;
+  color: #fff;
+}
+.dark-blue {
+  background-color: #072050;
+}
+.hr {
+  text-align: right;
+  color: #fff;
+  padding: 0% 10px 0% 5px;
+}
+
+.card-link {
+   color: #57D753;
+}
+
+.pic {
+  background-image: url("https://image.shutterstock.com/image-photo/road-city-nightscape-architecture-fuzzy-600w-1401217862.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:100%;
+}
+
+#footer .row .card .card-body {
+  background-color: #04132f;
+}
+
+#footer .row .bg-dark {
+  background-color: #04132f!important;
+}
+
+#footer .row .card .card-body > p {
+  color: #fff;
+}
+
+#logo {
+  width: 100%;
+}
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  #title1 {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
